@@ -30,3 +30,29 @@
     transform: rotate(360deg);
   }
 }
+
+.divTable {
+  display: table; width: 50%;
+}
+.divTableRow {
+  display: table-row;
+  text-align: center;
+}
+.divTableHeading { display: table-header-group;}
+.divTableCell, .divTableHead { display: table-cell;}
+.divTable .divTableHeading .divTableHead {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+}
+.divTable .divTableHeading {
+  border-bottom: 2px solid #444444;
+}
+.divTable .divTableBody .divTableCell {
+  font-size: 13px;
+}
+.divTableCell {
+  border: 1px solid #000;
+  margin-top: 1px;
+  margin-left: 1px;
+}
